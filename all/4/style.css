@@ -1,0 +1,308 @@
+/* body{
+    font-family: "Ubuntu";
+} */
+#title{
+    
+    background-color: rgb(211, 243, 232);
+}
+ h3{
+    color: rgb(7, 148, 130);
+    font-weight: bold;
+    font-size: 95px;
+    letter-spacing: 5px;
+
+}
+h3{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+p{
+    letter-spacing: 1px;
+    color: rgb(108, 132, 127);
+}
+.my-pic{
+    margin-left:20% 10%;
+}
+hr{
+    margin-top: 5%;
+    color:rgb(107, 118, 116) ;
+}
+.button5 {border-radius: 100%;}
+
+
+/* Navbar */
+
+ .logo{
+    border-radius: 100%;
+    margin-right: 5px;
+    font-family: "Ubuntu";
+      
+ }
+ .container-fluid{
+    padding: 3% 3%;
+ }
+ 
+ /* Introduction section */
+.text1{
+
+   font-size: 6rem;
+   margin-top: 5px;
+   letter-spacing: 3px;
+   color: #079482;
+   
+   background: #D3F3E8;
+   position: relative;
+   animation: text 3s 1;
+ }
+ .text2{
+   color: #079482;
+   font-size: 1.5rem;
+   margin-bottom: 0px;
+ }
+
+
+   @keyframes text {
+      0%{
+      color: #D3F3E8;
+      margin-bottom: -40px;
+      }
+      30%{
+      letter-spacing : 25px;
+      margin-bottom : -40px;
+      }
+      85%{
+      letter-spacing : 8px;
+      margin-bottom: -40px;
+      }
+      
+ }
+ /* footer section */
+ .footer{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: rgb(7, 148, 130);
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+ }
+ .phone{
+    color: rgb(108, 132, 127);
+ }
+ .phone:hover{
+    color: rgb(7, 148, 130);
+ }
+
+ .email{
+    color: rgb(108, 132, 127);
+ }
+ .email:hover{
+    color: rgb(7, 148, 130);
+ }
+ .icon-color{
+    color: rgb(7, 148, 130);
+ }
+ .copy,.copy1{
+    letter-spacing: 0px;
+    font-size: 0.80rem;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .copy1{
+    font-size: 0.6rem;
+ }
+ .desc{
+    letter-spacing: 1.3px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .circle1,.circle2,.circle3 {
+    width: 125px;
+    height: 125px;
+    line-height: 125px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+   }
+   .circle1:hover{
+    color: #fff !important;
+   }
+   /* contact form */
+  .btn{
+   font-size: 1.5rem !important;
+  }
+  .btn:hover{
+      background-color: #fff !important;
+      
+  }
+  /* Project Page */
+
+
+  .professional{
+   /* display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 15px;
+   /* margin-bottom: 10px; */
+   /* font-family: "Ubuntu";
+   font-size: 50px;
+   font-weight: bold;
+   letter-spacing: 5px;
+   color: #079482;
+   position: relative;
+   animation: text 3s 1;  */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 3rem;
+   margin-top: 4px;
+   letter-spacing: 3px;
+   color: #079482;
+   background: #D3F3E8;
+   position: relative;
+   animation: text 3s 1;
+  }
+  .pro-heading{
+
+   /* margin-left: 350px;
+   /* margin-top: -10px;
+   margin-bottom: 40px; */
+   /* font-family: "Ubuntu";
+   font-size: 25px;
+   font-weight: bold;
+   letter-spacing: 1.5px;
+   color: #045e52;
+   transition: step-start; */ 
+   letter-spacing: 1.5px;
+   font-weight: bold;
+   margin-left: 380px;
+   color: #045e52;
+   font-size: 1.5rem;
+   margin-bottom: 0px;
+  }
+
+  #progress{
+   margin: 1% 5% 5% 5%;
+  }
+
+  .row h5{
+   font-weight: 300 ;
+   letter-spacing: 1px;
+   margin-top: 15px;
+   margin-bottom: 5px;
+   color: #045e52;
+   font-size: 16px;
+  }
+  .progress-bar{
+   background: #959595;
+   width: 350px;
+   height: 11px;
+   margin-top: 2%;
+   border-radius: 5px;
+   float: none;
+   overflow: visible;
+  }
+.progress-bar div{
+   height: 11px;
+   border-radius: 5px;
+   width: 0%;
+   
+}
+.progress-bar div span { 
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   font-size: 12px;
+   background: #D3F3E8;
+   float: right;
+   margin-top: -11px;
+   margin-right: -20px;
+   color: #045e52;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+.html{
+   background: #e91e63;
+   animation: html 1s linear forwards;
+}
+.css{
+   background: #05f7f7;
+   animation: css 1s linear forwards;
+}
+.wordpress{
+   background: #df67e5;
+   animation: wordpress 1s linear forwards;
+}
+.bootstrap{
+   background: rgb(215, 140, 21);
+   animation: bootstrap 1s linear forwards;
+}
+.photoshop{
+   background: #1ea5e9;
+   animation: photoshop 1s linear forwards;
+}
+.servicenow{
+   background: #18c63b;
+   animation: servicenow 1s linear forwards;
+}
+.html span{
+   border: 1px solid #e91e63 ;
+   background-color: #e93e77a6;
+   
+}
+.css span{
+   border: 1px solid #05f7f7 ;
+   
+}
+.wordpress span{
+   border: 1px solid #df67e5 ;
+}
+.bootstrap span{
+   border: 1px solid rgb(215, 140, 21) ;
+}
+.photoshop span{
+   border: 1px solid #1ea5e9 ;
+}
+.servicenow span{
+   border: 1px solid #18c63b;
+   
+}
+
+@keyframes html{
+   100%{
+      width: 85%;
+   }
+}
+@keyframes css{
+   100%{
+      width: 75%;
+   }
+}
+@keyframes wordpress{
+   100%{
+      width: 40%;
+   }
+}
+@keyframes bootstrap{
+   100%{
+      width: 80%;
+   }
+}
+@keyframes photoshop{
+   100%{
+      width: 60%;
+   }
+}
+@keyframes servicenow{
+   100%{
+      width: 70%;
+   }
+}
+
+#image{
+   height: 350px;
+   width: 450px;
+}
